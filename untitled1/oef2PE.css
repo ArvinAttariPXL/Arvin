@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.vogels-tabel {
+    width: 600px;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+.vogels-tabel thead th,
+.vogels-tabel thead td {
+    background-color: #2f4f75;
+    color: white;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.vogels-tabel tbody th,
+.vogels-tabel tbody td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.vogels-tabel .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vogels-tabel tbody tr:nth-child(even) td {
+    background-color: #fffc89;
+}
+
+.vogels-tabel tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vogel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

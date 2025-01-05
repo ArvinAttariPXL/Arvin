@@ -1,0 +1,20 @@
+/* De volgende CSS wordt enkel toegepast als het scherm maximaal 600px breed is */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* De volgende CSS wordt enkel toegepast als het scherm minimaal 600px breed is */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* De volgende CSS wordt enkel toegepast als het scherm minimaal 600px breed is en maximaal 900px breed is */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: lightyellow;
+    }
+}
